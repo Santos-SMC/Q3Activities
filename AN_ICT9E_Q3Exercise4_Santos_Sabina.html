@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Lora&display=swap" rel="stylesheet">
+	<style type="text/css">
+		h1,h6{
+			font-family: Bodoni Moda;
+		}
+		p,td{
+			font-family: Lora;
+		}
+		img{
+			height: 150px;
+			width: 120px;
+		}
+	</style>
+	<title>Q3 Exercise 4</title>
+</head>
+<body class="bg-secondary">
+	<div class="container">
+         <nav class="navbar nav-tabs navbar-expand-lg navbar-dark">
+		<a class="navbar-brand text-light">OBMC Batches.com</a>
+		<ul class="navbar-nav">
+			<li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">CONTACT US</a></li>
+		</ul>
+	</nav>
+	</div>
+	<div class="container">
+	<h1 class="bg-light text-dark text-center">OB Montessori Center - Grade 9 Students</h1>
+	<table class="table table-bordered table-hover table-dark">
+		<tr>
+			<th>Profile Picture</th>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Grade and Section</th>
+		</tr>
+		<tr>
+			<td><img src="ynigo.jpeg" class="rounded"></td>
+			<td>Yñigo</td>
+			<td>Nunag</td>
+			<td>9-Onyx</td>
+		</tr>	
+		<tr>
+			<td><img src="ezekiel.jpeg" class="rounded"></td>
+			<td>Ezekiel</td>
+			<td>Santos</td>
+			<td>9-Ruby</td>
+		</tr>	
+		<tr>
+			<td><img src="sabina.JPG" class="rounded"></td>
+			<td>Sabina</td>
+			<td>Santos</td>
+			<td>9-Emerald</td>
+		</tr>
+	</table>
+	</div>
+	<div class="container">
+	<h1 class="bg-light text-dark text-center">Adding New Students</h1>
+	<div class="container bg-dark text-light">
+	<form class="form group">
+		Enter First Name: <input type="text" name="firstname" class="form-control">
+		Enter Last Name: <input type="text" name="lastname" class="form-control">
+		Choose Section:
+		<select>
+			<option>Onyx</option>
+			<option>Ruby</option>
+			<option>Emerald</option>
+		</select>
+		<br>
+		Date Enrolled: <input type="date" name="enrolled" class="form-control">
+		<br>
+		<input type="file" name="picture">
+		<br><br>
+		<input type="submit" value="ADD STUDENT" class="btn btn-warning btn-block">
+		<input type="reset" value="CANCEL" class="btn btn-danger btn-block">
+	</form>
+	<br>
+	<h6 class="bg-dark text-light">Rereferences:</h6>
+	<p>Note: Images above are not mine.</p>
+	<br>
+<footer>
+<small style="font-family: Bodoni Moda;">&copy; SMCSantos 2023</small>
+</footer>
+	</div>
+	</div>
+</body>
+</html>
